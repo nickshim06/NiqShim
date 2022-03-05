@@ -19,7 +19,7 @@ h2 {
 }
 
 main { 
-    display: grid;
+    display: flex;
     grid-template-columns: 40% 60%;
     margin-top: 3em;
 }
