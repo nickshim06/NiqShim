@@ -32,21 +32,24 @@ body{
 }
 @keyframes heading{
     0% {top:-200px}
-    100% {top: 80px}
+    100% {top: 100px}
 }
 .box{
-    background: white;
+    /* background: white; */
+    color:black;
+    background-color: rgba(221, 226, 208, 0.4);
     width: 350px;
     height: 100px;
     position:relative;
     margin: auto;
+    font-size: 15px;
     text-align:justify;
-    padding-top:32px;
+    padding-top:12px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     border-radius: 20px;
-    border-style:solid;
+    
     animation-name:content;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -59,19 +62,20 @@ body{
     100%{opacity: 1;}
 }
 .box:hover{
-    background: rgb(68, 53, 97);
+    background: rgba(145, 130, 177,0.6);
     border-radius: 20px;  
     color:white;
 }
 .btn{
     display:inline-block;
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
     text-decoration:none;
     padding: 1rem 2rem;
     padding-left: 10px;
     padding-right: 10px;
     border: white 1px solid;
+    border-radius: 10px;
     animation-name:button;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -83,7 +87,7 @@ body{
     100%{opacity: 1;}
 }
 .btn:hover{
-    background: rgb(67, 30, 138);
+    background: rgba(67, 30, 138, 0.6);
     transform: rotateY(180deg);
 }
 @media (min-width: 500px){
