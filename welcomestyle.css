@@ -23,12 +23,12 @@ body{
     animation-fill-mode: forwards; 
 }
 @keyframes heading{
-    0% {top:-80px}
+    0% {top:-100px}
     100% {top: 200px}
 }
 .box{
     background: white;
-    width: 300px;
+    width: 350px;
     height: 100px;
     position:relative;
     margin: auto;
@@ -36,12 +36,12 @@ body{
     padding-top:32px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     border-radius: 20px;
     border-style: double;
     animation-name:content;
-    animation-duration: 5s;
-    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
     transition-property: all;
     transition-duration: 0.5s;
@@ -66,8 +66,8 @@ body{
     padding-right: 10px;
     border: white 1px solid;
     animation-name:button;
-    animation-duration: 3s;
-    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
     transition-property:transform;
     transition-duration: 0.5s;
