@@ -51,5 +51,5 @@ h1, h2 {
     margin-bottom: 0;
 }
 #mainLeft {
-    border-right: 1px solid lightgray;
+    border-right: 5px solid rgb(97, 88, 88);
 }
