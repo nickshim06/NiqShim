@@ -10,11 +10,14 @@ h1 {
     padding-top: 1em;
     padding-bottom: 1em;
 }
-
+#mainRight {
+    border-collapse: collapse;
+ }
 h2 {
     font-size: 1.5em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
+
 main { 
     display: grid;
     grid-template-columns: 40% 60%;
