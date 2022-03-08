@@ -1,1 +1,1 @@
-# A simple website describing everything about myself
+# A simple website describing things I do
